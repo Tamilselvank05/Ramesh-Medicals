@@ -12,3 +12,4 @@ Allow: /
 
 User-agent: *
 Allow: /
+Sitemap: https://ramesh-medicals.vercel.app/sitemap.xml
