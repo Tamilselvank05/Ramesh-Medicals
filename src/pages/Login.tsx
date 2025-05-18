@@ -180,7 +180,7 @@ const Login = () => {
              <div className="text-xs text-center w-full text-gray-500">
               Owned By: 
               <a 
-                href="https://your-portfolio-link.com" 
+                href="https://tamilselvank05.github.io/TamilselvanK_Portfolio/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-blue-500 hover:underline ml-1"
