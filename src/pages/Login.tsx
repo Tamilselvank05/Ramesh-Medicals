@@ -177,6 +177,17 @@ const Login = () => {
             <div className="text-xs text-center w-full text-gray-500">
               &copy; {new Date().getFullYear()} Ramesh Medicals. All rights reserved.
             </div>
+             <div className="text-xs text-center w-full text-gray-500">
+              Owned By: 
+              <a 
+                href="https://your-portfolio-link.com" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="text-blue-500 hover:underline ml-1"
+              >
+                Tamilselvan K
+              </a>
+            </div>
           </CardFooter>
         </Card>
       </div>
