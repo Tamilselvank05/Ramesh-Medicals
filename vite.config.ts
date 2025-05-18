@@ -11,12 +11,19 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     react(),
-    mode === 'development' &&
-    componentTagger(),
+    mode === "development" && componentTagger(),
   ].filter(Boolean),
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  build: {
+    outDir: "dist", // default is fine, just make it explicit
+  },
+  // 🔥 This is the missing part for SPA support on dev/refresh!
+  preview: {
+    port: 5000,
+    host: true,
   },
 }));
