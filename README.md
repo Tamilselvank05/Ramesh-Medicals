@@ -1,6 +1,10 @@
 npm install react-day-picker@latest
+
 npm i
-npm run dev 
+
+npm run dev
+
+
 ```
 
 This project is built with:
